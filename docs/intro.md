@@ -27,9 +27,9 @@ The iPay dashboard is used for initial setup and monitoring, without controlling
 ## Table of Contents
 
 - [Introduction](/introduction/overview): Understand the basics of iPay integration.
-- [Preparation Steps](/preparation-steps/registering-a-user): Set up your account and wallet.
-- [Creating the REST API URL](/creating-rest-api-url/required-optional-parameters): Build payment URLs.
-- [HTTP POST Callbacks](/http-post-callbacks/json-payload-explanation): Handle transaction notifications.
+- [Registering a User](/preparation-steps/registering-user): Set up your account and wallet.
+- [Creating the REST API URL](/creating-rest-api-url/parameters): Build payment URLs.
+- [HTTP POST Callbacks](/http-post-callbacks/json-payload): Handle transaction notifications.
 - [Error Handling](/error-handling/error-code-table): Troubleshoot integration issues.
 
 ## Getting Started
