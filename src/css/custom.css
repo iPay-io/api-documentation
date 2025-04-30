@@ -32,3 +32,29 @@
 .table-of-contents {
   display: none;
 }
+
+/* Make main categories bold and slightly larger */
+.menu__link--sublist {
+  font-weight: bold;
+  font-size: 1.2em; /* Adjust size as needed */
+}
+
+/* Add separation between categories */
+.theme-doc-sidebar-item-category {
+  margin-bottom: 1.2em; /* Adjust spacing as needed */
+}
+
+/* Style 'Welcome to iPay' (homepage at '/') */
+a.menu__link[href="/"] {
+  font-weight: bold;
+  font-size: 1.2em; /* Adjust as needed */
+  margin-top: 1.2em; /* Adjust spacing as needed */
+  margin-bottom: 1.2em; /* Adjust spacing as needed */
+}
+
+/* Style 'Testing & FAQs' (at '/testing-and-faqs/') */
+a.menu__link[href="/testing-and-faqs/"] {
+  font-weight: bold;
+  font-size: 1.2em; /* Adjust as needed */
+  margin-bottom: 1.2em; /* Adjust spacing as needed */
+}
