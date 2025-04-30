@@ -58,3 +58,7 @@ a.menu__link[href="/testing-and-faqs/"] {
   font-size: 1.2em; /* Adjust as needed */
   margin-bottom: 1.2em; /* Adjust spacing as needed */
 }
+
+.navbar__logo {
+  margin-right: 1.2rem; /* Adjust this value for more or less space, e.g., 0.5rem or 1.5rem */
+}
