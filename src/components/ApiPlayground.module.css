@@ -1,7 +1,7 @@
 .playground {
   margin: 2rem 0;
   padding: 1rem;
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
   border-radius: 5px;
 }
 
@@ -11,28 +11,34 @@
 
 .formGroup label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   font-weight: bold;
 }
 
 .formGroup input {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.25rem;
+  background-color: #333;
+  border-color: #555;
+  font-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 button {
   padding: 0.5rem 1rem;
-  background-color: #007bff;
-  color: white;
+  background-color: #66ccbe;
+  color: #000000;
+  font-weight: bold;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #7c59fd;
+  margin-bottom: 2rem;
 }
 
 .url, .response, .error {
@@ -40,10 +46,13 @@ button:hover {
 }
 
 .url pre, .response pre, .error pre {
-  background-color: #eee;
+  background-color: #2a2a2a;
+  border-color: #fff;
   padding: 1rem;
   border-radius: 4px;
   overflow-x: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .error {
