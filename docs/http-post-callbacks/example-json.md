@@ -1,6 +1,7 @@
 ---
 title: Example JSON
-description: Sample callback JSON payload
+description: Sample JSON payload for an iPay payment callback.
+keywords: [iPay, API documentation, high-risk, psp, example JSON, callback payload, USDT, Polygon, transaction verification]
 sidebar_position: 2
 ---
 

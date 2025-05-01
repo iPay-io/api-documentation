@@ -1,5 +1,7 @@
 ---
 title: Error Handling
+description: Guide to handling errors in iPay API integration, including HTTP status codes and troubleshooting tips.
+keywords: [iPay, API documentation, high-risk, psp, error handling, HTTP status codes, 401 Unauthorized, 404 Not Found, 500 Internal Server Error, troubleshooting, best practices]
 sidebar_position: 1
 ---
 

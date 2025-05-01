@@ -1,6 +1,7 @@
 ---
 title: Required & Optional Parameters
-description: Parameters for constructing the REST API URL
+description: Required and optional parameters for constructing the iPay REST API URL.
+keywords: [iPay, API documentation, high-risk, psp, REST API, parameters, apiKey, customId, onRampProvider, defaultFiatAmount, defaultFiatCurrency, colorCode, screenTitle, Postman]
 sidebar_position: 1
 ---
 

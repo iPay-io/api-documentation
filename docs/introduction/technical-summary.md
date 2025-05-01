@@ -1,5 +1,7 @@
 ---
 title: Technical Summary
+description: Technical overview of iPay payment gateway integration, covering REST API URL creation and callback setup.
+keywords: [iPay, API documentation, high-risk, psp, technical summary, REST API, payment button, on-ramp provider, callback URL, JSON payload, secret token, security]
 sidebar_position: 3
 ---
 

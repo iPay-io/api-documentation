@@ -1,6 +1,7 @@
 ---
 title: Secret Token (Optional)
-description: Using a secret token for verifying callbacks
+description: Using a secret token to verify iPay payment callbacks for enhanced security.
+keywords: [iPay, API documentation, high-risk, psp, secret token, callback verification, security, IPN handler, authentication]
 sidebar_position: 5
 ---
 

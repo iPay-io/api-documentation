@@ -1,6 +1,7 @@
 ---
 title: Overview
-description: Introduction to the i-pay Payment Gateway
+description: Introduction to the iPay Payment Gateway, outlining the integration process for cryptocurrency payments.
+keywords: [iPay, API documentation, high-risk, psp, payment gateway, cryptocurrency, integration, REST API, callbacks, dashboard, wallet control]
 sidebar_position: 1
 ---
 

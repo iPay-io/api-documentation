@@ -1,6 +1,8 @@
 ---
 slug: /
 title: Welcome to iPay
+description: Overview of iPay API documentation, introducing cryptocurrency payment integration and support resources.
+keywords: [iPay, API documentation, high-risk, psp, cryptocurrency payments, payment gateway, integration guide, wallet setup, API key, callbacks, error handling, support]
 sidebar_position: 1
 ---
 

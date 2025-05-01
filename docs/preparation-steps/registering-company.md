@@ -1,6 +1,7 @@
 ---
 title: Registering a Company
-description: Setting up your company profile in i-pay
+description: Process for setting up a company profile in the iPay dashboard for payment integration.
+keywords: [iPay, API documentation, high-risk, psp, company registration, dashboard, profile setup, business details, wallet ownership, API keys]
 sidebar_position: 2
 ---
 

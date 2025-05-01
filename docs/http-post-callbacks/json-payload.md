@@ -1,6 +1,7 @@
 ---
 title: JSON Payload Explanation
-description: Understanding the callback JSON payload
+description: Explanation of the JSON payload received in iPay payment callbacks.
+keywords: [iPay, API documentation, high-risk, psp, JSON payload, callback, transaction details, accountId, blockchainTxId, chain, currency, customerID, timestamp, transactionFee, transferredAmount, token verification]
 sidebar_position: 1
 ---
 

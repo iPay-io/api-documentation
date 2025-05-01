@@ -1,5 +1,7 @@
 ---
 title: Testing and FAQs
+description: Testing procedures and frequently asked questions for iPay API integration.
+keywords: [iPay, API documentation, high-risk, psp, iPay, testing, FAQs, test environment, test API keys, simulate callbacks, error scenarios, support]
 sidebar_position: 7
 ---
 

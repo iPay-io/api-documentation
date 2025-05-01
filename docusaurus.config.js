@@ -79,9 +79,20 @@ const config = {
           alt: 'iPay-Logo',
           src: 'img/ipay-logo.png',
         },
-        items: [
-               ],
+        items: [],
       },
+      algolia: {
+          appId: 'HS6B02XE0D',
+          apiKey: '8b538715d4c823dc4ba92acccfeaff04',
+          indexName: 'i-pay',
+          contextualSearch: true,
+          searchPagePath: 'search',
+        },
+      colorMode: {
+          defaultMode: 'dark',
+          disableSwitch: true,
+          respectPrefersColorScheme: false,
+        },
       footer: {
        style: 'dark',
        links: [],

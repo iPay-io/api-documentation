@@ -1,6 +1,7 @@
 ---
 title: Adding a Crypto Wallet
-description: Configuring your crypto wallet to receive payments
+description: Instructions for configuring a crypto wallet in the iPay dashboard to receive payments.
+keywords: [iPay, API documentation, high-risk, psp, crypto wallet, wallet configuration, blockchain network, USDT, Polygon, account ID, payment destination]
 sidebar_position: 3
 ---
 

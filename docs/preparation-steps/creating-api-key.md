@@ -1,6 +1,7 @@
 ---
 title: Creating an API Key
-description: How to generate an API key for i-pay integration
+description: Guide to generating an API key in the iPay dashboard for integration.
+keywords: [iPay, API documentation, high-risk, psp, API key, dashboard, integration, callback URL, IPN, secure storage]
 sidebar_position: 4
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Logging In
-description: How to log in to the i-pay dashboard
+description: Instructions for logging into the iPay dashboard and initial setup steps.
+keywords: [iPay, API documentation, high-risk, psp, dashboard, login, account creation, company registration, wallet setup, API key, security]
 sidebar_position: 2
 ---
 

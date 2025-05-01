@@ -1,6 +1,7 @@
 ---
 title: Registering a User
-description: Steps to create an i-pay user account
+description: Steps to create an iPay user account and access the dashboard.
+keywords: [iPay, API documentation, high-risk, psp, user account, registration, dashboard access, password setup, backoffice]
 sidebar_position: 1
 ---
 

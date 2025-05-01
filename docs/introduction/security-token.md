@@ -1,6 +1,7 @@
 ---
 title: Security Token (Optional)
-description: Using a webhook secret token for added security
+description: Guide to using a webhook secret token for verifying iPay payment notifications.
+keywords: [iPay, API documentation, high-risk, psp, security token, webhook, callback verification, IPN, secret token, authentication, security]
 sidebar_position: 4
 ---
 
