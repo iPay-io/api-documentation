@@ -5,6 +5,8 @@ keywords: [iPay, API documentation, high-risk, psp, REST API, parameters, apiKey
 sidebar_position: 1
 ---
 
+import ApiPlayground from '../../src/components/ApiPlayground';
+
 # Required & Optional Parameters
 
 The **base URL** for payment requests is:
@@ -44,3 +46,5 @@ params = {
 url = f"{base_url}{'&'.join(f'{k}={v}' for k, v in params.items())}"
 print(url)
 ```
+
+<ApiPlayground />
