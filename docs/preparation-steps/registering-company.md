@@ -7,9 +7,10 @@ sidebar_position: 2
 
 # Registering a Company
 
-After logging in, register your **Company** in the i-pay dashboard to represent your business or project.
+After logging in, you must first register your **Company** in the **Companies** Menu --> 👤
 
-Navigate to the **Companies** or **Profile** section and enter details like company name and address. If your account was pre-associated with a company, details may be pre-populated; otherwise, add a new company.
+Click in the bottom right corner on **+ Add Company**, and input all details. 
+If your account was pre-associated with a company, you can skip to the next step.
 
 This company profile links to your user account and owns configured wallets and API keys.
 

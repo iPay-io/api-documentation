@@ -6,6 +6,7 @@ sidebar_position: 1
 ---
 
 import ApiPlayground from '../../src/components/ApiPlayground';
+import styles from '../../src/css/customStyles.module.css';
 
 # Required & Optional Parameters
 
@@ -28,7 +29,13 @@ Append parameters as query strings using `&`, in any order, ensuring required pa
 | **screenTitle**     | No        | Buy Crypto To Your Wallet | Custom widget title (e.g., `DepositTest`).                              |
 
 :::tip
-Use [Postman](https://www.postman.com/) to test URLs. i-pay provides a Postman collection for easy setup.
+Use [Postman](https://www.postman.com/) to test URLs. i-pay provides a Postman collection for easy setup. Download the collection here:
+
+<div className={styles.centerButton}>
+  <a href="/ipay.postman_collection.json" download className={styles.downloadButtonIpayPostman}>
+    Download iPay Postman Collection
+  </a>
+</div>
 :::
 
 **Example Python Code**:

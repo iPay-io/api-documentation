@@ -1,20 +1,12 @@
 ---
-title: Testing and FAQs
+title: Example Callback
 description: Testing procedures and frequently asked questions for iPay API integration.
 keywords: [iPay, API documentation, high-risk, psp, iPay, testing, FAQs, test environment, test API keys, simulate callbacks, error scenarios, support]
-sidebar_position: 7
+sidebar_position: 2
 ---
 
 # Testing and FAQs
 
-## Testing Your Integration
-
-To ensure a robust integration, test your setup in a controlled environment:
-
-- **Request a Test Environment**: Contact [support@ipay.io](mailto:support@ipay.io) to access iPay’s sandbox environment, if available.
-- **Use Test API Keys**: Generate test keys in the dashboard to simulate transactions without real funds.
-- **Simulate Callbacks**: Use tools like [Postman](https://www.postman.com/) to send mock JSON payloads to your callback URL.
-- **Test Error Scenarios**: Trigger errors (e.g., invalid API key) to verify your error handling logic.
 
 ### Example Test Callback
 
@@ -36,7 +28,7 @@ To ensure a robust integration, test your setup in a controlled environment:
 
 Send this payload to your callback URL to test processing logic.
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 
 **Q: How do I obtain an API key?**
 

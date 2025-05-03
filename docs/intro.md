@@ -8,7 +8,7 @@ sidebar_position: 1
 
 # Welcome to iPay API Documentation
 
-iPay is a secure and user-friendly payment gateway that enables businesses to accept cryptocurrency payments, with funds delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants.
+iPay is a secure and user-friendly payment gateway that enables businesses to accept fiat payments, with funds converted and delivered directly to your crypto wallet. This ensures you maintain full control over your assets, offering a seamless and transparent payment solution for high-risk merchants.
 
 ## Why Choose iPay?
 
@@ -50,4 +50,4 @@ Refer to the linked sections for detailed instructions.
 
 For assistance, contact our support team at [support@ipay.io](mailto:support@ipay.io).
 
-Start integrating iPay today to offer seamless cryptocurrency payments!
+Start integrating iPay today to offer seamless fiat payments!

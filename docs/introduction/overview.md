@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Overview
 
-Welcome to the i-pay Payment Gateway documentation. This guide provides a comprehensive walkthrough for integrating the i-pay platform ([i-pay.io](https://i-pay.io/)) into your systems, enabling you to accept cryptocurrency payments delivered directly to your crypto wallet.
+Welcome to the i-pay Payment Gateway documentation. This guide provides a comprehensive walkthrough for integrating the i-pay platform ([i-pay.io](https://i-pay.io/)) into your systems, enabling you to accept fiat payments, converted and delivered directly to your crypto wallet.
 
 The integration process is straightforward:
 1. **Generate a REST API URL**: Create a payment URL to initiate transactions.

@@ -7,15 +7,17 @@ sidebar_position: 4
 
 # Creating an API Key
 
-With a company and wallet configured, create an **API Key** to link your integration components.
+With a company and account configured, create an **API Key** to link your integration components.
 
-In the dashboard, navigate to **API Keys** (under “Developer” or “Integration”). Select **Create New API Key** and provide:
-- **Company/Wallet**: Choose the associated company and wallet.
-- **IPN URL**: Specify your server’s callback URL for HTTP POST notifications.
-- **Name/Label (Optional)**: Assign a name (e.g., “Website Payment Key”).
+Go to the **API Key** Menu --> 🗝
 
-The system generates a unique API key. Copy and store it securely for use in payment URLs.
+1. Select your **Account** from the dropdown
+2. Enter your **callback URL** for HTTP POST notifications.
+--> Click on the **Request** button to complete
+
+The system generates a unique API key.
+
 
 :::important
-Each API key is tied to one IPN URL and wallet. Create separate keys for different configurations.
+**Reach out to the i-Pay Team either directly, or via business@i-pay.io to activate your API key.**
 :::

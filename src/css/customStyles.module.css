@@ -1,0 +1,28 @@
+.downloadButtonIpayPostman {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.downloadButtonIpayPostman:hover {
+  background: linear-gradient(90deg, #009bff, #007bff);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100px; /* Ensure enough height for centering */
+  margin: 1rem 0; /* Maintain vertical spacing */
+}

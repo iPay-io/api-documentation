@@ -9,9 +9,12 @@ sidebar_position: 3
 
 With your company set up, add a **crypto wallet** to receive payments.
 
-In the dashboard, go to **Wallets** or **Accounts**. Enter a wallet address you control, specifying the blockchain network (e.g., Polygon for USDT).
+Go to the **Companies** Menu (👤), and click on **+ Open New Account** next to your Company's name.
 
-**Example**: To receive USDT on Polygon, provide your Polygon USDT wallet address. Funds from customer purchases are sent directly to this address. You can add multiple wallets for different currencies or blockchains.
+Enter the name of the Account (e.g. "CRM Deposits"), click on **Polygon USDT**, and enter your **own wallet address**.
+
+**Note**: The provided wallet address can be generated from any wallet provider you may chose. 
+Funds from customer purchases are sent directly to this address. 
 
 :::warning
 Double-check the wallet address; i-pay forwards funds exactly as provided.
