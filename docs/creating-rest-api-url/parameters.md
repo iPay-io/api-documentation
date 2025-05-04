@@ -22,7 +22,7 @@ Append parameters as query strings using `&`, in any order, ensuring required pa
 |---------------------|-----------|---------------------|-----------------------------------------------------------------------------|
 | **apiKey**          | Yes       | None                | Links the request to your i-pay account and callback. Created in dashboard. |
 | **customId**        | Yes       | None                | Unique ID (e.g., order ID) returned as `customerID` in callbacks.           |
-| **onRampProvider**  | Yes       | Transak             | Specifies the provider (e.g., `transak`).                                   |
+| **onRampProvider**  | Yes       | Provider1           | Specifies the provider (e.g., `provider1`).                                   |
 | **defaultFiatAmount** | No      | 300 (USD)           | Pre-filled fiat amount in the widget (e.g., `100`).                         |
 | **defaultFiatCurrency** | No    | USD                 | Locks currency (e.g., `EUR`). User chooses if omitted.                      |
 | **colorCode**       | No        | Blue                | Hex color for widget theme (e.g., `D000F2`).                                |
@@ -44,7 +44,7 @@ base_url = "https://us-central1-ipay.cloudfunctions.net/app/api/invoice_external
 params = {
     "apiKey": "jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23",
     "customId": "38UUAR23DVUA",
-    "onRampProvider": "transak",
+    "onRampProvider": "provider1",
     "defaultFiatCurrency": "USD",
     "defaultFiatAmount": "108",
     "colorCode": "D000F2",

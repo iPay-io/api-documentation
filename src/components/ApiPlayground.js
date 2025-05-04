@@ -4,7 +4,7 @@ import styles from './ApiPlayground.module.css';
 const ApiPlayground = () => {
   const [apiKey, setApiKey] = useState('');
   const [customId, setCustomId] = useState('');
-  const [onRampProvider, setOnRampProvider] = useState('transak');
+  const [onRampProvider, setOnRampProvider] = useState('provider1');
   const [defaultFiatAmount, setDefaultFiatAmount] = useState('');
   const [defaultFiatCurrency, setDefaultFiatCurrency] = useState('USD');
   const [colorCode, setColorCode] = useState('');
@@ -18,7 +18,7 @@ const ApiPlayground = () => {
     const params = {
       apiKey: apiKey || 'jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23', // Default test key
       customId: customId || '38UUAR23DVUA', // Default test ID
-      onRampProvider: onRampProvider || 'transak',
+      onRampProvider: onRampProvider || 'provider1',
       ...(defaultFiatAmount && { defaultFiatAmount }),
       ...(defaultFiatCurrency && { defaultFiatCurrency }),
       ...(colorCode && { colorCode }),
@@ -81,7 +81,7 @@ const ApiPlayground = () => {
             type="text"
             value={onRampProvider}
             onChange={(e) => setOnRampProvider(e.target.value)}
-            placeholder="transak"
+            placeholder="provider1"
           />
         </div>
         <div className={styles.formGroup}>

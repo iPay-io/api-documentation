@@ -11,7 +11,7 @@ Below is an example of assembling a complete REST API URL with all optional para
 
 - **apiKey**: `jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23`
 - **customId**: `38UUAR23DVUA`
-- **onRampProvider**: `transak`
+- **onRampProvider**: `provider1`
 - **defaultFiatCurrency**: `USD`
 - **defaultFiatAmount**: `108`
 - **colorCode**: `D000F2`
@@ -20,7 +20,7 @@ Below is an example of assembling a complete REST API URL with all optional para
 **Resulting URL**:
 
 ```
-https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoice_external?apiKey=jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23&customId=38UUAR23DVUA&onRampProvider=transak&defaultFiatCurrency=USD&defaultFiatAmount=108&colorCode=D000F2&screenTitle=DepositTest
+https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoice_external?apiKey=jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23&customId=38UUAR23DVUA&onRampProvider=provider1&defaultFiatCurrency=USD&defaultFiatAmount=108&colorCode=D000F2&screenTitle=DepositTest
 ```
 
 ### Python Example
@@ -32,7 +32,7 @@ base_url = "https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoi
 params = {
     "apiKey": "jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23",
     "customId": "38UUAR23DVUA",
-    "onRampProvider": "transak",
+    "onRampProvider": "provider1",
     "defaultFiatCurrency": "USD",
     "defaultFiatAmount": "108",
     "colorCode": "D000F2",
