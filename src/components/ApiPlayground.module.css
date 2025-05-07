@@ -20,7 +20,7 @@
   padding: 0.25rem;
   background-color: #333;
   border-color: #555;
-  font-color: #fff;
+  color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -57,4 +57,11 @@ button:hover {
 
 .error {
   color: red;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
 }

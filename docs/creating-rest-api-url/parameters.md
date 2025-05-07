@@ -1,5 +1,5 @@
 ---
-title: Required & Optional Parameters
+title: API Parameters
 description: Required and optional parameters for constructing the iPay REST API URL.
 keywords: [iPay, API documentation, high-risk, psp, REST API, parameters, apiKey, customId, onRampProvider, defaultFiatAmount, defaultFiatCurrency, colorCode, screenTitle, Postman]
 sidebar_position: 1
@@ -8,12 +8,12 @@ sidebar_position: 1
 import ApiPlayground from '../../src/components/ApiPlayground';
 import styles from '../../src/css/customStyles.module.css';
 
-# Required & Optional Parameters
+# API Parameters
 
 The **base URL** for payment requests is:
 
 ```
-https://us-central1-ipay.cloudfunctions.net/app/api/invoice_external?
+https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoice_external?
 ```
 
 Append parameters as query strings using `&`, in any order, ensuring required parameters are included.
@@ -38,20 +38,3 @@ Use [Postman](https://www.postman.com/) to test URLs. i-pay provides a Postman c
 </div>
 :::
 
-**Example Python Code**:
-```python
-base_url = "https://us-central1-ipay.cloudfunctions.net/app/api/invoice_external?"
-params = {
-    "apiKey": "jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23",
-    "customId": "38UUAR23DVUA",
-    "onRampProvider": "provider1",
-    "defaultFiatCurrency": "USD",
-    "defaultFiatAmount": "108",
-    "colorCode": "D000F2",
-    "screenTitle": "DepositTest"
-}
-url = f"{base_url}{'&'.join(f'{k}={v}' for k, v in params.items())}"
-print(url)
-```
-
-<ApiPlayground />

@@ -10,14 +10,13 @@ const ApiPlayground = () => {
   const [colorCode, setColorCode] = useState('');
   const [screenTitle, setScreenTitle] = useState('');
   const [response, setResponse] = useState(null);
-  const [error, setError] = useState(null);
   const [constructedUrl, setConstructedUrl] = useState('');
 
   const constructUrl = () => {
-    const baseUrl = 'https://us-central1-ipay.cloudfunctions.net/app/api/invoice_external?';
+    const baseUrl = 'https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoice_external?';
     const params = {
-      apiKey: apiKey || 'jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23', // Default test key
-      customId: customId || '38UUAR23DVUA', // Default test ID
+      apiKey: apiKey,
+      customId: customId,
       onRampProvider: onRampProvider || 'provider1',
       ...(defaultFiatAmount && { defaultFiatAmount }),
       ...(defaultFiatCurrency && { defaultFiatCurrency }),
@@ -33,55 +32,59 @@ const ApiPlayground = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setResponse(null);
-    setError(null);
 
     const url = constructUrl();
     setConstructedUrl(url);
 
     try {
-      const res = await fetch(url);
+      const res = await fetch(url, { mode: 'cors' });
       if (!res.ok) {
-        throw new Error(`HTTP error! status: ${res.status}`);
+        throw new Error(`HTTP error! Status: ${res.status} ${res.statusText}`);
       }
       const data = await res.json();
       setResponse(JSON.stringify(data, null, 2));
     } catch (err) {
-      setError(err.message);
+      // Error is not displayed
     }
   };
 
+  // Ensure state variables are strings before calling trim()
+  const isFormValid = (typeof apiKey === 'string' && apiKey.trim() !== '') &&
+                     (typeof customId === 'string' && customId.trim() !== '') &&
+                     (typeof onRampProvider === 'string' && onRampProvider.trim() !== '');
+
   return (
     <div className={styles.playground}>
-      <h3>Try the iPay REST API</h3>
+      <h3>Create your REST API</h3>
       <form onSubmit={handleSubmit}>
         <div className={styles.formGroup}>
-          <label htmlFor="apiKey">API Key (required)</label>
+          <label htmlFor="apiKey">API Key</label>
           <input
             id="apiKey"
             type="text"
             value={apiKey}
             onChange={(e) => setApiKey(e.target.value)}
-            placeholder="Enter your API Key (or use default)"
+            placeholder="Enter your API Key"
           />
         </div>
         <div className={styles.formGroup}>
-          <label htmlFor="customId">Custom ID (required)</label>
+          <label htmlFor="customId">Custom ID</label>
           <input
             id="customId"
             type="text"
             value={customId}
             onChange={(e) => setCustomId(e.target.value)}
-            placeholder="Enter Custom ID (or use default)"
+            placeholder="Enter Custom ID"
           />
         </div>
         <div className={styles.formGroup}>
-          <label htmlFor="onRampProvider">On-Ramp Provider (required)</label>
+          <label htmlFor="onRampProvider">On-Ramp Provider</label>
           <input
             id="onRampProvider"
             type="text"
             value={onRampProvider}
             onChange={(e) => setOnRampProvider(e.target.value)}
-            placeholder="provider1"
+            placeholder="e.g., provider1"
           />
         </div>
         <div className={styles.formGroup}>
@@ -124,24 +127,22 @@ const ApiPlayground = () => {
             placeholder="e.g., DepositTest"
           />
         </div>
-        <button type="submit">Test API</button>
+        <button type="submit" disabled={!isFormValid}>Create</button>
       </form>
       {constructedUrl && (
         <div className={styles.url}>
           <h4>Constructed URL:</h4>
           <pre>{constructedUrl}</pre>
+          <div className={styles.buttonContainer}>
+            <button onClick={() => navigator.clipboard.writeText(constructedUrl)}>Copy</button>
+            <button onClick={() => window.open(constructedUrl, '_blank')}>Test</button>
+          </div>
         </div>
       )}
       {response && (
         <div className={styles.response}>
           <h4>Response:</h4>
           <pre>{response}</pre>
-        </div>
-      )}
-      {error && (
-        <div className={styles.error}>
-          <h4>Error:</h4>
-          <pre>{error}</pre>
         </div>
       )}
     </div>
