@@ -5,7 +5,6 @@ keywords: [iPay, API documentation, high-risk, psp, technical summary, REST API,
 sidebar_position: 3
 ---
 
-## Technical Summary
 
 To implement the iPay payment gateway, create a **REST API URL** and link it to a payment button or link on your website or backoffice. When a user initiates a payment (e.g., via a “Buy” or “Deposit” button), they are directed to the on-ramp provider to complete the transaction.
 

@@ -14,6 +14,6 @@ Generate your iPay REST API URL easily with this tool. Enter the required parame
 
 For parameter details, see [Parameters](/creating-rest-api-url/parameters).
 
-**Note:** Ensure your API key is valid. Test the URL in Postman or your browser. For issues, contact [support@ipay.io](mailto:support@ipay.io).
+**Note:** Ensure your API key is valid. Test the URL in Postman or your browser. For issues, contact [support@i-pay.io](mailto:support@i-pay.io).
 
 <ApiPlayground />

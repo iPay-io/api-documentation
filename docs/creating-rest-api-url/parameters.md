@@ -20,7 +20,7 @@ Append parameters as query strings using `&`, in any order, ensuring required pa
 
 | Parameter           | Required? | Default             | Description                                                                 |
 |---------------------|-----------|---------------------|-----------------------------------------------------------------------------|
-| **apiKey**          | Yes       | None                | Links the request to your i-pay account and callback. Created in dashboard. |
+| **apiKey**          | Yes       | None                | Links the request to your iPay account and callback. Created in dashboard. |
 | **customId**        | Yes       | None                | Unique ID (e.g., order ID) returned as `customerID` in callbacks.           |
 | **onRampProvider**  | Yes       | Provider1           | Specifies the provider (e.g., `provider1`).                                   |
 | **defaultFiatAmount** | No      | 300 (USD)           | Pre-filled fiat amount in the widget (e.g., `100`).                         |
@@ -29,7 +29,7 @@ Append parameters as query strings using `&`, in any order, ensuring required pa
 | **screenTitle**     | No        | Buy Crypto To Your Wallet | Custom widget title (e.g., `DepositTest`).                              |
 
 :::tip
-Use [Postman](https://www.postman.com/) to test URLs. i-pay provides a Postman collection for easy setup. Download the collection here:
+Use [Postman](https://www.postman.com/) to test URLs. iPay provides a Postman collection for easy setup. Download the collection here:
 
 <div className={styles.centerButton}>
   <a href="/ipay.postman_collection.json" download className={styles.downloadButtonIpayPostman}>

@@ -7,10 +7,10 @@ sidebar_position: 2
 
 # Logging In
 
-To use the i-pay API, you need a merchant account.
+To use the iPay API, you need a merchant account.
 
 :::info
-**Account creation is handled by the i-pay team.** Contact support via [i-pay.io](https://i-pay.io/) to initiate the process.
+**Account creation is handled by the iPay team.** Contact support via [i-pay.io](https://i-pay.io/) to initiate the process.
 :::
 
 Once your account is approved, log in to the dashboard:

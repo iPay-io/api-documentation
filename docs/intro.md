@@ -48,6 +48,6 @@ Refer to the linked sections for detailed instructions.
 
 ## Support
 
-For assistance, contact our support team at [support@ipay.io](mailto:support@ipay.io).
+For assistance, contact our support team at [support@i-pay.io](mailto:support@i-pay.io).
 
 Start integrating iPay today to offer seamless fiat payments!

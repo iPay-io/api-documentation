@@ -7,11 +7,11 @@ sidebar_position: 1
 
 # Registering a User
 
-Start by creating an **i-pay user account**.
+Start by creating an **iPay user account**.
 
-Contact i-pay via the **Apply Now** form at [i-pay.io](https://i-pay.io/) or through your i-pay representative to set up an account for you or your business.
+Contact iPay via the **Apply Now** form at [i-pay.io](https://i-pay.io/) or through your iPay representative to set up an account for you or your business.
 
-Once i-pay confirms account creation, log in:
+Once iPay confirms account creation, log in:
 1. Visit [dash.i-pay.io](https://dash.i-pay.io/) and click **“Forgot password”**.
 2. Set your password using the emailed link.
 3. Log in to access the i-pay backoffice dashboard.

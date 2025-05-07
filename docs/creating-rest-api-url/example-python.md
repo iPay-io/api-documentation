@@ -14,7 +14,7 @@ This page provides a Python code example to demonstrate how to construct a REST 
 ```python
 import urllib.parse
 
-base_url = "[invalid url, do not cite]
+base_url = "https://us-central1-nfgdatabasedemo.cloudfunctions.net/app/api/invoice_external?"
 params = {
     "apiKey": "jBQyeHEPJUhj1pRP7KPlShkw5Oc99g23",
     "customId": "38UUAR23DVUA",
@@ -79,6 +79,6 @@ To use this code in your application:
 ## Tips for Success
 - Ensure all required parameters (`apiKey`, `customId`, `onRampProvider`) are included to avoid errors.
 - For detailed parameter descriptions, refer to the [Parameters](/creating-rest-api-url/parameters) section.
-- If you encounter issues, contact iPay support at [support@ipay.io](mailto:support@ipay.io) to verify your API key or server configuration.
+- If you encounter issues, contact iPay support at [support@i-pay.io](mailto:support@i-pay.io) to verify your API key or server configuration.
 
 This example provides a foundation for integrating iPay’s API into your Python-based applications, enabling seamless payment processing.

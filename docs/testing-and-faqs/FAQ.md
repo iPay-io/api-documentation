@@ -24,4 +24,4 @@ A: Yes, add multiple wallets in the dashboard and create separate API keys for e
 
 A: Compare the `token` field in the callback JSON with the secret token provided by iPay. Reject mismatches.
 
-For more questions, contact [support@ipay.io](mailto:support@ipay.io).
+For more questions, contact [support@i-pay.io](mailto:support@i-pay.io).

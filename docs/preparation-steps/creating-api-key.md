@@ -19,5 +19,5 @@ The system generates a unique API key.
 
 
 :::important
-**Reach out to the i-Pay Team either directly, or via business@i-pay.io to activate your API key.**
+**Reach out to the iPay Team either directly, or via business@i-pay.io to activate your API key.**
 :::

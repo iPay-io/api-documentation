@@ -17,7 +17,7 @@ Enter the name of the Account (e.g. "CRM Deposits"), click on **Polygon USDT**, 
 Funds from customer purchases are sent directly to this address. 
 
 :::warning
-Double-check the wallet address; i-pay forwards funds exactly as provided.
+Double-check the wallet address; iPay forwards funds exactly as provided.
 :::
 
-i-pay generates an **Account ID** for each wallet, used in callback data to identify payment destinations.
+iPay generates an **Account ID** for each wallet, used in callback data to identify payment destinations.

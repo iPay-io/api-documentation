@@ -1,23 +1,25 @@
 ---
-title: Secret Token (Optional)
-description: Using a secret token to verify iPay payment callbacks for enhanced security.
-keywords: [iPay, API documentation, high-risk, psp, secret token, callback verification, security, IPN handler, authentication]
+title: Security Token
+description: Guide to using a webhook secret token for verifying iPay payment notifications.
+keywords: [iPay, API documentation, high-risk, psp, security token, webhook, callback verification, IPN, secret token, authentication, security]
 sidebar_position: 5
 ---
 
-# Secret Token (Optional)
+# Security Token (Optional)
 
-For each API key, i-pay provides a **Secret Token** for callback verification, enhancing security.
+For each API key, iPay provides a **webhook secret token** to enhance security. This token is included in every JSON payload sent to your IPN URL.
 
-Request the token from your i-pay account manager after creating the API key. Store it securely (e.g., in an encrypted vault). Each JSON payload includes this token or a derived signature.
-
-Verify the token in your IPN handler to confirm callback authenticity.
-
-:::info
-This step is optional but recommended. Without it, use protections like IP whitelisting.
+:::note
+**Validating this token ensures notifications originate from iPay and are untampered.**
 :::
 
-**Example Verification (Python)**:
+Obtain the token from your iPay account manager when your API key is issued. Store it securely. When receiving an HTTP POST callback, compare the payload’s token to your stored token to verify authenticity.
+
+:::info
+Implementing the token check is **optional** but **highly recommended**. Without it, protect your IPN endpoint with measures like IP whitelisting.
+:::
+
+**Example Verification (Pseudo-code)**:
 ```python
 if payload['token'] == stored_secret_token:
     process_payment(payload)
