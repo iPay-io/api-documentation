@@ -47,4 +47,4 @@ Below is a sample JSON payload for a USDT payment on Polygon:
 **Processing Steps**:
 1. Verify the `token` (if used).
 2. Match `customerID` to your records.
-3. Confirm `transferredAmount` and `blockchainTxId
+3. Confirm `transferedAmount`
