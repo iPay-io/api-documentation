@@ -11,7 +11,7 @@ The HTTP POST callback’s JSON payload contains transaction details:
 
 | Field                | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| **accountId**        | Unique wallet ID (e.g., `tQqUvcnfwO8HzlQjYz2d`).                            |
+| **accountEDTO**        | Unique wallet ID (e.g., `tQqUvcnfwO8HzlQjYz2d`).                            |
 | **blockchainTxId**   | Blockchain transaction hash (e.g., `0x73c2...e566f`).                      |
 | **chain**            | Blockchain network (e.g., `MATIC` for Polygon).                            |
 | **currency**         | Cryptocurrency delivered (e.g., `USDT`).                                   |
@@ -19,12 +19,12 @@ The HTTP POST callback’s JSON payload contains transaction details:
 | **timestamp**        | Payment completion time (e.g., `2023-07-11T06:03:22.063Z`).                |
 | **transactionFee**   | Fee amount (e.g., `0.0002` USDT).                                         |
 | **transactionFeePercent** | Fee percentage (e.g., `0.025` for 2.5%).                             |
-| **transferredAmount** | Net amount delivered (e.g., `0.0098` USDT).                               |
-| **url**              | Your IPN URL (e.g., `https://your-endpoint.com/`).                        |
-| **token**            | Secret token for verification (if enabled).                                |
+| **transferedAmount** | Net amount delivered (e.g., `0.0098` USDT).                               |
+| **value_in_usd**     | Net amount delivered in USD (e.g. 0.009798 USD).                        |
 
 These fields enable you to process payments, verify transactions, and update user records.
 
 :::note
-Verify the `token` field if using the secret token feature.
+If a secret token is used (optional), we include it in the header.
+Verify this header before processing the JSON body.
 :::
