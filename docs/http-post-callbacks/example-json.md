@@ -1,9 +1,8 @@
-\---
-
+---
 title: Example JSON
 description: Sample JSON payload for an iPay payment callback.
-keywords: \[iPay, API documentation, high-risk, psp, example JSON, callback payload, USDT, Polygon, transaction verification]
-sidebar\_position: 2
+keywords: [iPay, API documentation, high-risk, psp, example JSON, callback payload, USDT, Polygon, transaction verification]
+sidebar_position: 2
 ---
 
 # Example JSON
@@ -25,11 +24,11 @@ Below is a sample JSON payload for a USDT payment on Polygon:
       "transactionFee": 0.0002,
       "transactionFeePrecent": 0.02,
       "transferedAmount": 0.0098,
-      "value\_in\_usd": 0.009799749218
+      "value_in_usd": 0.009799749218
     },
-    "client\_ip": "39.96.64.295",
+    "client_ip": "39.96.64.295",
     "headers": {
-      "accept": "application/json, text/plain, \*/\*",
+      "accept": "application/json, text/plain, */*",
       "accept-encoding": "gzip, compress, deflate, br",
       "authorization": "d1ea638aeebd58fa38c1e1fb7c3532653b5cb1691d143ca323e9112287cd603258d17cb0b5a789a0fbca7cc6e0292ec580e5b41d0cb5bb631052934e3eebc53.a389c90f1753304",
       "content-length": "340",
@@ -46,12 +45,7 @@ Below is a sample JSON payload for a USDT payment on Polygon:
 ```
 
 **Processing Steps**:
-
 1. Verify the `token` (if used).
 2. Match `customerID` to your records.
 3. Confirm `transferedAmount`
-
-
-
-Callbacks fire the moment funds settle — see \[what T+0 settlement means for high-risk merchants](https://www.i-pay.io/post/what-is-t0-settlement-and-why-does-it-matter-for-high-risk-merchants).
-
+Callbacks fire the moment funds settle. See [what T+0 settlement means for high-risk merchants](https://www.i-pay.io/post/what-is-t0-settlement-and-why-does-it-matter-for-high-risk-merchants).
