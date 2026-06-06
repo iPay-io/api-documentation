@@ -25,3 +25,5 @@ A: Yes, add multiple wallets in the dashboard and create separate API keys for e
 A: Compare the `token` field in the callback JSON with the secret token provided by iPay. Reject mismatches.
 
 For more questions, contact [support@i-pay.io](mailto:support@i-pay.io).
+
+Wondering why so many processors say no? See [what the MATCH list is and how it blacklists forex brokers and casinos](https://www.i-pay.io/post/what-is-the-match-list-how-it-blacklists-forex-brokers-and-casinos).

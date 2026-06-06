@@ -1,8 +1,9 @@
----
+\---
+
 title: Logging In
 description: Instructions for logging into the iPay dashboard and initial setup steps.
-keywords: [iPay, API documentation, high-risk, psp, dashboard, login, account creation, company registration, wallet setup, API key, security]
-sidebar_position: 2
+keywords: \[iPay, API documentation, high-risk, psp, dashboard, login, account creation, company registration, wallet setup, API key, security]
+sidebar\_position: 2
 ---
 
 # Logging In
@@ -20,10 +21,16 @@ Once your account is approved, log in to the dashboard:
 3. Log in with your credentials.
 
 After logging in, use the dashboard for initial setup:
-- **Company Registration**: Enter your business details.
-- **Account Setup**: Connect your crypto wallet.
-- **API Key Creation**: Generate a key with your callback URL.
+
+* **Company Registration**: Enter your business details.
+* **Account Setup**: Connect your crypto wallet.
+* **API Key Creation**: Generate a key with your callback URL.
 
 :::note
 Keep credentials secure and share dashboard access only with trusted team members.
 :::
+
+
+
+New to high-risk payments? \[High-risk merchant account alternatives for unregulated brokers](https://www.i-pay.io/post/high-risk-merchant-account-alternatives-guide-for-unregulated-brokers) explains where iPay fits.
+
